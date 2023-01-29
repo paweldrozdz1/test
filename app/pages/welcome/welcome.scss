@@ -1,7 +1,7 @@
 .welcome {
 
   font-family: "Roboto Light";
-
+  
   ion-slide {
 
     position: relative;
@@ -27,6 +27,10 @@
 
   .swiper-pagination-bullet {
     background: white;
+  }
+
+  .navbar {
+    background-color: rgba(153, 173, 228, 0.8);
   }
 
 }
