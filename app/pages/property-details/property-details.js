@@ -27,8 +27,8 @@ export class PropertyDetailsPage {
 
         this.propertyService.favorite(property).subscribe(() => {
             let alert = Alert.create({
-                title: 'Favorites',
-                subTitle: 'Property added to your favorites',
+                title: 'Ulubione',
+                subTitle: 'Nieruchomość dodana do Ulubione',
                 buttons: ['OK']
             });
             this.nav.present(alert);
