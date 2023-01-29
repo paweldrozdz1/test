@@ -2,7 +2,7 @@
     <button menuToggle>
         <ion-icon name="menu"></ion-icon>
     </button>
-    <ion-title>Broker</ion-title>
+    <ion-title>Agent</ion-title>
 </ion-navbar>
 
 <ion-content class="broker">
@@ -17,24 +17,21 @@
             <ion-list>
                 <a href="tel:{{broker.Phone__c}}" ion-item>
                     <ion-icon name="call" item-left></ion-icon>
-                    <p>Call Office</p>
+                    <p>Numer Telefonu</p>
                     <h2>{{broker.phone}}</h2>
-                </a>
-                <a href="tel:{{broker.phone}}" ion-item>
-                    <ion-icon name="call" item-left></ion-icon>
-                    <p>Call Mobile</p>
-                    <h2>{{broker.mobilePhone}}</h2>
-                </a>
-                <a href="tel:{{broker.phone}}" ion-item>
-                    <ion-icon name="text" item-left></ion-icon>
-                    <p>Text</p>
-                    <h2>{{broker.mobilePhone}}</h2>
                 </a>
                 <a href="mailto:{{broker.email}}" ion-item>
                     <ion-icon name="mail" item-left></ion-icon>
                     <p>Email</p>
                     <h2>{{broker.email}}</h2>
                 </a>
+                <div>
+                    <ion-icon name="text" item-left></ion-icon>
+                    <p>O mnie</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque faucibus, mi vitae dignissim lacinia, ipsum lorem posuere diam, eu luctus felis lacus a nisi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse lobortis odio ut sagittis porta. Morbi eu dignissim arcu, a viverra metus. Curabitur nec velit ac quam luctus tristique et mattis nisi. Duis posuere quis erat vitae accumsan. Quisque nec bibendum sem. Vestibulum aliquam justo mi, quis placerat nisi cursus ac. Suspendisse rutrum efficitur ipsum at dignissim. Aliquam vel velit quis nunc faucibus hendrerit in vel est. Maecenas placerat, diam et facilisis hendrerit, ipsum ligula consequat elit, quis rutrum est felis in eros.
+
+                        Nulla non nisl lobortis, auctor libero vel, convallis justo. Duis lorem justo, hendrerit a mi eu, sollicitudin interdum turpis. Vivamus auctor erat lacus, a euismod leo aliquet vel. Phasellus quis felis porta, consequat neque non, vestibulum quam. In sollicitudin dictum massa quis lobortis. Nulla at porttitor eros. Sed sit amet euismod orci. Donec gravida ut libero elementum mattis. Vestibulum aliquet lectus at quam iaculis, non luctus augue venenatis. Donec nisl tellus, congue at erat non, fringilla viverra tellus. In consectetur, augue id dapibus dapibus, sem ante blandit tortor, eu consequat felis leo sed ante.</p>
+                </div>
             </ion-list>
 
         </ion-card>
