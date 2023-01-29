@@ -30,10 +30,10 @@ class MyApp {
         this.platform = platform;
 
         this.pages = [
-            {title: 'Welcome', component: WelcomePage, icon: "bookmark"},
-            {title: 'Properties', component: PropertyListPage, icon: "home"},
-            {title: 'Brokers', component: BrokerListPage, icon: "people"},
-            {title: 'Favorites', component: FavoriteListPage, icon: "star"}
+            {title: 'Strona Główna', component: WelcomePage, icon: "bookmark"},
+            {title: 'Nieruchomości', component: PropertyListPage, icon: "home"},
+            {title: 'Agenci', component: BrokerListPage, icon: "people"},
+            {title: 'Ulubione', component: FavoriteListPage, icon: "star"}
         ];
 
         this.rootPage = WelcomePage;
